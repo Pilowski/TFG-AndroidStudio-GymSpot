@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ReservaClasesApp</string>
+    <string-array name="opciones_sexo">
+        <item>hombre</item>
+        <item>mujer</item>
+    </string-array>
+
+</resources>

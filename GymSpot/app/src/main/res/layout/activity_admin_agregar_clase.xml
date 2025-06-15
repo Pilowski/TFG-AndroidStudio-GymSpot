@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imagenSeleccionada"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:background="#DDDDDD"
+            android:contentDescription="Vista previa de imagen" />
+
+        <Button
+            android:id="@+id/btnSeleccionarImagen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar imagen"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/inputNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Nombre de la clase"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/inputFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:focusable="false"
+            android:hint="Fecha (YYYY-MM-DD)"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/inputHora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:focusable="false"
+            android:hint="Hora (HH:MM:SS)"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/inputCupo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Cupo máximo"
+            android:inputType="number"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnSubirClase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar clase"
+            android:layout_marginTop="24dp"/>
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+</ScrollView>

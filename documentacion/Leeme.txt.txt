@@ -1,0 +1,22 @@
+Requisitos Previos
+
+Software necesario:
+
+XAMPP
+
+Android Studio (o un emulador Android / dispositivo físico)
+
+Navegador web
+
+1. Copiar el backend
+Copiar la carpeta del backend a la siguiente ruta: C:\xampp\htdocs
+
+2. Abrir Android Studio
+Abrir el proyecto GymSpot
+
+2.3 Ejecutar app
+Elegir un emulador o conectar un dispositivo Android por USB
+
+Ejecutar la app con el botón “Run”
+
+

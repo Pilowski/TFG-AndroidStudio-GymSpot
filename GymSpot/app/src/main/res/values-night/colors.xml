@@ -1,0 +1,10 @@
+<resources>
+    <!-- Modo oscuro -->
+    <color name="mainMenuBackground">#121212</color>
+    <color name="colorPrimary">#00ACC1</color>
+    <color name="colorPrimaryDark">#007C91</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="backgroundColor">#121212</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="nombreUsuarioTexto">#FFFFFF</color>
+</resources>
